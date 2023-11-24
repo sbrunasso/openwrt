@@ -24,6 +24,7 @@ opkg install luci-app-ddns luci-app-opkg
 opkg install luci-app-firewall luci-app-upnp
 opkg install luci-app-freifunk-diagnostics
 opkg install luci-app-https-dns-proxy luci-app-ntpc 
+opkg install luci-app-acme
 
 ## Install the statstics modules 
 # Default Sets of modules 
