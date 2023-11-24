@@ -17,9 +17,9 @@ opkg install luci-mod-network
 #  * resolve_conffiles: Existing conffile /etc/config/ucitrack is different from the conffile in the new package. The new conffile will be placed at /etc/config/ucitrack-opkg.
 
 
-
+## Change to install nginx-all-modules 
 ## Install new modules 
-opkg install nginx-mod-luci-ssl 
+opkg install nginx-all-module
 opkg install luci-app-ddns luci-app-opkg
 opkg install luci-app-firewall luci-app-upnp
 opkg install luci-app-freifunk-diagnostics
