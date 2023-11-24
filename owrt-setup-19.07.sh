@@ -7,6 +7,17 @@
 ## Update the Package List 
 opkg update 
 
+## Install Default Upgradable Modules from fresh bin file
+opkg install luci-lib-ip luci-mod-system luci-theme-bootstrap luci-mod-status luci-proto-ppp
+opkg install luci-mod-admin-full luci-base luci-proto-ipv6 luci-lib-nixio luci-lib-jsonc luci
+opkg install luci-mod-network
+
+# Collected errors:
+#  * resolve_conffiles: Existing conffile /etc/config/luci is different from the conffile in the new package. The new conffile will be placed at /etc/config/luci-opkg.
+#  * resolve_conffiles: Existing conffile /etc/config/ucitrack is different from the conffile in the new package. The new conffile will be placed at /etc/config/ucitrack-opkg.
+
+
+
 ## Install new modules 
 opkg install nginx-mod-luci-ssl 
 opkg install luci-app-ddns luci-app-opkg
