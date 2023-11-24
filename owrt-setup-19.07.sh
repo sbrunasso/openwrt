@@ -8,7 +8,7 @@
 opkg update 
 
 ## Install new modules 
-opkg install luci-ssl
+opkg install nginx-mod-luci-ssl 
 opkg install luci-app-ddns luci-app-opkg
 opkg install luci-app-firewall luci-app-upnp
 opkg install luci-app-freifunk-diagnostics
