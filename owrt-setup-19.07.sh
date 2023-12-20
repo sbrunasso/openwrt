@@ -38,5 +38,5 @@ opkg install luci-app-acme
 
 opkg install luci-app-statistics luci-app-wol
 opkg install collectd-mod-apache collectd-mod-conntrack collectd-mod-iptables collectd-mod-nginx collectd-mod-ntpd collectd-mod-ping
-
+opkg install collectd-mod-dns collectd-mod-disk
 
